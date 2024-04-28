@@ -1,0 +1,21 @@
+{
+    "name": "scody/queuemanager",
+    "description": "Php Queue Manager",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Scody\\QueueManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SCaeR",
+            "email": "i@e2big.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^11.2@dev"
+    }
+}
